@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2024 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2025 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -505,8 +505,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_PATH_EXPLAIN'		=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Kiterjesztéscsoport ikonok elérési útja',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'A phpBB-d gyökérkönyvtárától viszonyított elérési út, pl. <samp>images/upload_icons</samp>.',
-	'USE_SYSTEM_CRON'		=> 'Ismétlődő feladatok futtatása a rendszer cron-ból',
-	'USE_SYSTEM_CRON_EXPLAIN'		=> 'Ha ki van kapcsolva, a phpBB gondoskodik az ismétlődő feladatok rendszeres futtatásáról. Ha be van kapcsolva, a phpBB nem fog egy feladatot sem ütemezetten futtatni. Ekkor egy rendszer adminisztrátornak kell a <code>bin/phpbbcli.php cron:run</code> utasítást a rendszer feladatütemező eszközében rendszeres futtatásra beállítania (pl. minden 5 percben).',
+	'USE_SYSTEM_CRON'			=> 'Ismétlődő feladatok futtatása az operációs rendszer cron-ból',
+	'USE_SYSTEM_CRON_EXPLAIN'	=> 'Ha le van tiltva, a phpBB gondoskodik az ismétlődő feladatok rendszeres futtatásáról. Ha engedélyezett, a phpBB nem fog egy feladatot sem ütemezetten futtatni. Ekkor egy rendszer adminisztrátornak kell a <code>bin/phpbbcli.php cron:run</code> utasítást az operációs rendszer feladatütemező eszközében rendszeres futtatásra beállítania (pl. minden 5 percben).',
 ));
 
 // Security Settings
