@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2026 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -41,9 +41,9 @@ if (empty($lang) || !is_array($lang))
 
 // Privacy policy and T&C
 $lang = array_merge($lang, array(
-	'TERMS_OF_USE_CONTENT'	=> 'Azzal, hogy használja a „%1$s” fórumot (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) elfogadja, hogy betartja az alábbi feltételeket. Ha nem fogadja el, kérjük ne használja, illetve ne is keresse fel a fórumot. A feltételeket bármikor megváltoztathatjuk, és habár a lehető legtöbbet megtesszük, hogy értesítsük a változásról, érdemes rendszeresen áttekinteni ezt az oldalt, mivel a fórum használati feltételeinek megváltoztatása utáni további használatával ön beleegyez az új feltételek betartásába.
+	'TERMS_OF_USE_CONTENT'	=> 'Azzal, hogy használja a „%1$s” fórumot (a továbbiakban „mi”, „a fórum”, „%1$s”, „%2$s”) elfogadja, hogy betartja az alábbi feltételeket. Ha nem fogadja el, kérjük ne használja, illetve ne is keresse fel a fórumot. A feltételeket bármikor megváltoztathatjuk, és habár a lehető legtöbbet megtesszük, hogy értesítsük a változásról, az Ön felelőssége rendszeresen áttekinteni ezt az oldalt, mivel a fórum használati feltételeinek megváltoztatása utáni további használatával Ön beleegyez az új feltételek betartásába.
 	<br><br>
-	A fórumot a phpBB hajtja, mely egy a „<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="https://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a phpBB Limited nem felelős azért, hogy milyen tartalmakat, illetve magatartást engedélyezünk. További információért a phpBB-ről, kérjük, látogassa meg a <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> weboldalt.
+	A fórumot a phpBB hajtja, mely egy a „<a href="http://opensource.org/license/gpl-2.0">GNU General Public License v2</a>” (a továbbiakban „GPL”) licenc alatt kiadott fórumszoftver, és a <a href="https://www.phpbb.com/">www.phpbb.com</a>, valamint magyarul a <a href="http://phpbb.hu/">phpbb.hu</a> weboldalról tölthető le. A phpBB csak lehetőséget nyújt az internet alapú kommunikációra; a phpBB Limited nem felelős azért, hogy milyen tartalmakat, illetve magatartást engedélyezünk. További információért a phpBB-ről, kérjük, látogassa meg a <a href="https://www.phpbb.com/">https://www.phpbb.com/</a> weboldalt.
 	<br><br>
 	Ön beleegyez, hogy nem küld semmilyen sértegető, obszcén, vulgáris, rágalmazó, gyűlöletkeltő, támadó, közízlést sértő vagy bármely más olyan tartalmat, mely sérti a hazájában, a fórumot kiszolgáló szerver országában érvényben lévő vagy a nemzetközi törvényeket. A fentiek megsértése azonnali és végleges kitiltáshoz vezethet az internetszolgáltatója értesítésével együtt, ha ezt szükségesnek tartjuk. A feltételek betartatásának érdekében az összes hozzászóláshoz tartozó IP-címet tároljuk. Ön elfogadja, hogy a fórum fenntartóinak jogukban áll eltávolítani, szerkeszteni a hozzászólásait vagy lezárni az ön által nyitott témákat, amennyiben úgy ítélik meg, hogy ez szükséges. Mint felhasználó, elfogadja, hogy bármely adat, melyet megad, tárolásra kerül a fórum adatbázisában. Ezek az információk a beleegyezése nélkül semmilyen módon nem kerülnek átadásra egy harmadik félnek, de a fórum fenntartói nem tudnak felelősséget vállalni az adatokért egy esetleges „hackertámadás” esetén.
 	',
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	<br><br>
 	A másik mód, ami tárolásra kerülő információt generál, az maga az interakció: például ha ön vendégként vagy regisztrált tagként hozzászólást ír vagy regisztrál. Ez utóbbi folyamat során meg kell adnia egy egyedien azonosítható nevet („a felhasználói nevét”), egy – a belépéshez használt – személyes jelszót („a jelszavát”), illetve egy valós e-mail címet („az e-mail címét”). Az ön által létrehozott azonosítót azon ország adatvédelmi törvényei védelmezik, melyben a fórum szervere található. A regisztráció során megadott egyéb adatok kötelezősége az adott fórum adminisztrátorainak döntésétől függ. Lehetősége van rá, hogy megválassza, milyen információk jelenjenek meg önről nyilvánosan a profiljában. Ezen felül ki-, illetve bekapcsolhatja az ön számára küldött automatikus leveleket.
 	<br><br>
-	A jelszavát biztonságosan, egyirányúan kódolva tároljuk. Javasoljuk, hogy teljesen egyedi jelszavat használjon! Ezen jelszóval férhet hozzá a fórumos azonosítójához, így kérjük, gondosan kezelje. Semmilyen körülmények közt ne adja ki harmadik személynek, még ha az az oldal üzemeltetője is, vagy ha a phpBB-vel kapcsolatban kérik! Amennyiben elfelejti a jelszavát, használja az „Elfelejtettem a jelszavam” funkciót. A rendszer kérni fogja a felhasználónevét és az e-mail címét, majd generálni fog egy új jelszót, így újra használhatja az azonosítóját.
+	A jelszavát biztonságosan, egyirányúan hash-elve tároljuk. Javasoljuk, hogy teljesen egyedi jelszót használjon! Ezen jelszóval férhet hozzá a fórumos azonosítójához, így kérjük, gondosan kezelje. Semmilyen körülmények közt ne adja ki harmadik személynek, még ha az az oldal üzemeltetője is, vagy ha a phpBB-vel kapcsolatban kérik! Amennyiben elfelejti a jelszavát, használja az „Elfelejtettem a jelszavam” funkciót. A rendszer kérni fogja a felhasználónevét és az e-mail címét, majd generálni fog egy új jelszót, így újra használhatja az azonosítóját.
 	',
 ));
 

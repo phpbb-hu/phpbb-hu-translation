@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2025 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2026 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -309,7 +309,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bekapcsolja az „Összes fórum” csatornát, amely a fórumok listáját jeleníti meg..',
 
 	'ACP_FEED_HTTP_AUTH'				=> 'HTTP azonosítás engedélyezése',
-	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Engedélyezi a HTTP azonosítást, aminek segítségével a felhasználók a vendég felhasználók elől elzárt tartalmakhoz is hozzáférnek, ha a csatorna URL-jét kiegészítik a <samp>auth=http</samp> paraméterrel. Kérjük, vedd figyelembe, hogy egyes PHP környezetekben további változtatásokat kell elvégezni a .htaccess állományban. A teendők megtalálhatóak ebben az állományban.',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Engedélyezi a HTTP azonosítást, aminek segítségével a felhasználók a vendég felhasználók elől elzárt tartalmakhoz is hozzáférnek, ha a csatorna URL-jét kiegészítik a <samp>auth=http</samp> paraméterrel. Kérjük, vedd figyelembe, hogy egyes PHP beállításoknál esetleg további változtatásokat kell elvégezni a .htaccess állományban. A teendők megtalálhatóak ebben az állományban. A HTTP azonosítás csak titkosított (HTTPS) kapcsolatokkal használható.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Bejegyzés statisztikák',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Különböző statisztikai adatokat jelenít meg a csatorna bejegyzései alatt.<br />(Például szerző, dátum, válaszok száma, megtekintések száma)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Kizárandó fórumok',
