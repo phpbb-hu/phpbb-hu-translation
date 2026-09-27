@@ -1,0 +1,14 @@
+Subject: phpBB {NEW_VERSION} frissítés elérhető - KRITIKUS frissítés szükséges a "{SITENAME}" oldalon
+
+Kedves {USERNAME}!
+
+Ezúton értesítünk, hogy új kritikus biztonsági frissítés érhető el a phpBB-telepítésedhez, aminek az azonnali telepítése szükséges.
+
+A jelenlegi verziód {CURRENT_VERSION}, és elérhető egy új verzió, amely kritikus biztonsági javításokat tartalmaz. Javasoljuk, hogy azonnal frissítsd a fórumot a legújabb elérhető {NEW_VERSION} verzióra, hogy biztosítsd a telepítés biztonságát és védelmét.
+
+A kiadás részletei megtekinthetőek az Adminisztrátori vezérlőpultban:
+{U_BOARD}
+
+A frissítési folyamattal kapcsolatos segítségért kérjük, tekintsd meg a dokumentációt, vagy látogass el a phpBB támogatási fórumaira.
+
+{EMAIL_SIG}

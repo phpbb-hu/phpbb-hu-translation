@@ -1,0 +1,14 @@
+Subject: phpBB {NEW_VERSION} frissítés elérhető a "{SITENAME}" oldalhoz
+
+Kedves {USERNAME}!
+
+Ezúton értesítjük, hogy új frissítés érhető el a phpBB-telepítéséhez.
+
+A jelenlegi verziója {CURRENT_VERSION}, a legújabb elérhető verzió {NEW_VERSION}. Kifejezetten ajánlott a fórum naprakészen tartása a legmagasabb szintű biztonság, stabilitás és teljesítmény biztosítása érdekében.
+
+A kiadás részletei megtekinthetőek az Adminisztrátori vezérlőpultban:
+{U_BOARD}
+
+A frissítési folyamattal kapcsolatos segítségért kérjük, tekintse meg a dokumentációt, vagy látogasson el a phpBB támogatási fórumaira.
+
+{EMAIL_SIG}

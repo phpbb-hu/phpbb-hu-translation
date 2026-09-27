@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2025 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2026 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -100,7 +100,7 @@ $lang = array_merge($lang, array(
 	'AUTH_PROVIDER_OAUTH_SERVICE_BITLY'						=> 'Bitly',
 	'AUTH_PROVIDER_OAUTH_SERVICE_FACEBOOK'					=> 'Facebook',
 	'AUTH_PROVIDER_OAUTH_SERVICE_GOOGLE'					=> 'Google',
-	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'Twitter',
+	'AUTH_PROVIDER_OAUTH_SERVICE_TWITTER'					=> 'X',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_NOT_STORED'			=> 'OAuth token nem került tárolásra.',
 	'AUTH_PROVIDER_OAUTH_TOKEN_ERROR_INCORRECTLY_STORED'	=> 'OAuth token hibásan került tárolásra.',
 	'AVATAR_DISALLOWED_CONTENT'		=> 'A feltöltés visszautasításra került, mivel a feltöltött állomány egy esetleges támadás hordozója lehet.',
@@ -337,6 +337,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d vendég',
 	),
 	'G_ADMINISTRATORS'			=> 'Adminisztrátorok',
+	'G_AI_CRAWLERS'				=> 'AI robotok', //? AI Crawlers
 	'G_BOTS'					=> 'Robotok',
 	'G_GUESTS'					=> 'Vendégek',
 	'G_REGISTERED'				=> 'Regisztrált felhasználók',
@@ -507,7 +508,10 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Téma elutasítása</strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Téma elfogadási kérelem</strong> %1$s-tól:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'A "%s" értesítési típus hiányzik a fájlrendszerből.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '“%1$s” újonnan regisztrált vagy deaktivált tag <strong>aktiválása szükséges</strong>', // ?
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '“%1$s” újonnan regisztrált vagy deaktivált tag <strong>aktiválása szükséges</strong>', // ?	
+	'NOTIFICATION_UPDATE_CRITICAL'		=> '<strong>phpBB %2$s frissítés elérhető - Kritikus frissítés szükséges</strong>: A fórumod aktuális verziója %1$s, és egy új, kritikus biztonsági javításokat tartalmazó verzió azonnali telepítése szükséges.',
+	'NOTIFICATION_UPDATE_MAINTENANCE'	=> '<strong>phpBB %2$s frissítés elérhető</strong>: A fórumod aktuális verziója %1$s, és egy új verzió elérhető.',
+	'NOTIFICATION_UPDATE_SECURITY'		=> '<strong>phpBB %2$s frissítés elérhető - Biztonsági frissítés</strong>: A fórumod aktuális verziója %1$s, és egy új, biztonsági javításokat tartalmazó verzió elérhető. Javasoljuk, hogy frissítsd a fórumot, hogy biztonságos és védett maradjon.',
 	// Used in conjunction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'egyéb',
 	'NOTIFICATION_X_OTHERS'				=> array(
@@ -841,7 +845,7 @@ $lang = array_merge($lang, array(
 		2	=> 'Felhasználók száma: <strong>%d</strong>',
 	),
 	'TRACKED_PHP_ERROR'	=> 'PHP hibák: %s',
-	'TWITTER'			=> 'Twitter',
+	'TWITTER'			=> 'X',
 
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Nem sikerült meghatározni a kép méretét. Kérjük ellenőrizd, hogy a megadott URL érvényes-e.',
 	'UNABLE_TO_DELIVER_FILE'=> 'Nem sikerült elküldeni az állományt.',

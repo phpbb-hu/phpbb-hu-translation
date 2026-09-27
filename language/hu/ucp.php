@@ -349,6 +349,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_REPORT_PM_CLOSED'				=> 'Egy moderátor lezárja a privát üzenet jelentésed', //? Your report on a private message is closed by a moderator
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Valaki létrehoz egy témát egy fórumban, amire feliratkoztál', //?
 	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Felhasználó aktiválásra vár', //?
+	'NOTIFICATION_TYPE_UPDATE_MAINTENANCE'				=> 'phpBB frissítési értesítések',
 
 	'NOTIFY_METHOD'					=> 'Értesítés módja',
 	'NOTIFY_METHOD_BOTH'			=> 'Mindkettő',

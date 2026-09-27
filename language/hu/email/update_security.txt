@@ -1,0 +1,14 @@
+Subject: phpBB {NEW_VERSION} frissítés elérhető - Biztonsági frissítés elérhető a "{SITENAME}" oldalhoz
+
+Kedves {USERNAME}!
+
+Ezúton értesítünk, hogy új biztonsági frissítés érhető el a phpBB-telepítésedhez.
+
+A jelenlegi verziód {CURRENT_VERSION}, és elérhető egy új verzió, amely biztonsági javításokat tartalmaz. Javasoljuk, hogy frissítsd a fórumot a legújabb elérhető {NEW_VERSION} verzióra, hogy biztosítsd a telepítés biztonságát és védelmét.
+
+A kiadás részletei megtekinthetőek az Adminisztrátori vezérlőpultban:
+{U_BOARD}
+
+A frissítési folyamattal kapcsolatos segítségért kérjük, tekintsd meg a dokumentációt, vagy látogass el a phpBB támogatási fórumaira.
+
+{EMAIL_SIG}

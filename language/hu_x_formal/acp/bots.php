@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2020 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2026 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -53,6 +53,8 @@ $lang = array_merge($lang, array(
 	'BOT_DELETED'		=> 'A robot sikeresen törlésre került.',
 	'BOT_EDIT'			=> 'Robotok szerkesztése',
 	'BOT_EDIT_EXPLAIN'	=> 'Itt felvehetsz egy új, illetve szerkeszthetsz egy már meglévő robot bejegyzést. A robot felismerésének céljából megadhatsz egy a robot böngészőazonosítójára illeszkedő kifejezést, illetve egy vagy több IP-címet (akár tartományt is). Ezek megadásánál légy óvatos! Emellett megadhatsz egy megjelenést és egy nyelvet, amiben a fórum meg fog jelenni a robotnak. Ezzel csökkentheted a sávszélesség-használatot, ha egy egyszerű megjelenést állítasz be. Ne felejtsd el beállítani a speciális Robotok csoportnak a megfelelő jogosultságokat.', //?!
+	'BOT_GROUP'			=> 'Robot csoport',
+	'BOT_GROUP_EXPLAIN'	=> 'Válaszd ki a csoportot, amibe a robot tartozik.',
 	'BOT_LANG'			=> 'Robot nyelv',
 	'BOT_LANG_EXPLAIN'	=> 'A robot ilyen nyelven fogja látni a fórumot.',
 	'BOT_LAST_VISIT'	=> 'Utolsó látogatás',
@@ -69,6 +71,7 @@ $lang = array_merge($lang, array(
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'A megadott robot böngészőazonosító hasonló a te böngésződ azonosítójához. Kérünk, igazítsd ki a kliensazonosítót.',
 	'ERR_BOT_NO_IP'				=> 'A megadott IP-címek hibásak voltak, vagy a hosztneveket nem lehetett meghatározni.', //? resolve
 	'ERR_BOT_NO_MATCHES'		=> 'A robot azonosításához meg kell adnod legalább a kliensazonosítóját vagy az IP-címét.',
+	'ERR_BOT_NO_NAME'			=> 'Meg kell adnod a robot nevét.',
 
 	'NO_BOT'		=> 'Nem található robot a megadott azonosítóval.',
 	'NO_BOT_GROUP'	=> 'Nem található a speciális robot csoport.',

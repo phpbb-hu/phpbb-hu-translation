@@ -8,7 +8,7 @@
 * For full copyright and license information, please see
 * the docs/CREDITS.txt file.
 *
-* Magyar fordítás (c) 2007-2023 „Magyar phpBB Közösség fordítók”,
+* Magyar fordítás (c) 2007-2026 „Magyar phpBB Közösség fordítók”,
 * http://phpbb.hu
 *
 * $Id$
@@ -615,6 +615,7 @@ $lang = array_merge($lang, array(
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Téma típusának megváltoztatása</strong><br />» %s',
 	'LOG_UNLOCK'				=> '<strong>Téma megnyitása</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>Hozzászólás megnyitása</strong><br />» %s',
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>Sikertelen verzióellenőrzés</strong>',
 
 	'LOG_DISALLOW_ADD'		=> '<strong>Letiltott felhasználónév hozzáadása</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>Letiltott felhasználónév törlése</strong>',

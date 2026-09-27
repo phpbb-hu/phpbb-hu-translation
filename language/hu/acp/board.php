@@ -364,20 +364,26 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> 'Ezek a beállítások határozzák meg, hogy a felhasználóid böngészőjének milyen sütik kerülnek elküldésre. A legtöbb esetben az alapbeállítások megfelelőek. Ha mégis meg kell változtatnod egy beállítást, tedd figyelemmel, mivel a nem helyes beállítások következtében előfordulhat, hogy a felhasználók nem tudnak majd belépni. Ha a felhasználóknak problémái vannak a fórumon való bejelentkezve maradással, akkor látogasd meg az angol nyelvű <strong><a href="https://www.phpbb.com/support/go/cookie-settings/">phpBB.com Knowledge Base - Fixing incorrect cookie settings</a></strong> oldalt.',
 
-	'COOKIE_DOMAIN'				=> 'Süti domain',
-	'COOKIE_DOMAIN_EXPLAIN'		=> 'A legtöbb esetben a süti domaint nem kell megadni. Hagyd üresen, ha nem vagy biztos az értékében.<br /><br /> Abban az esetben, ha a fórum integrálva van weboldallal vagy más programmal, esetleg több domain névről is elérhető, akkor a következőket kell tenned a megadandó érték eldöntésére. Ha van például egy <i>example.com</i> és egy <i>forums.example.com</i> címed, vagy <i>forums.example.com</i> és <i>blog.example.com</i>, akkor távolítsd el a címek elején lévő aldomaineket addig, amíg meg nem kapod a közös domain nevet, ami ebben az esetben <i>example.com</i>. Most tegyél egy pontot a domain elé és add meg a .example.com címet (figyelj a cím elején lévő pontra).',
-	'COOKIE_NAME'				=> 'Süti név',
-	'COOKIE_NAME_EXPLAIN'		=> 'Ez bármi lehet, amit szeretnél, legyen egyedi. Ha a süti beállítások változnak, a süti nevét is módosítani kell.',
-	'COOKIE_NOTICE'				=> 'Süti használati figyelmeztetés',
-	'COOKIE_NOTICE_EXPLAIN'		=> 'Ha engedélyezed, a látogatóidnak egy süti használati figyelmeztetés kerül megjelenítésre a fórumod felkeresésekor. Erre jogi okokból lehet szükség a fórumod tartalmától és az engedélyezett kiterjesztésektől függően.', //? "If enabled a cookie notice will be displayed to users when visiting your board. This might be required by law depending on the content of your board and enabled extensions."
-	'COOKIE_PATH'				=> 'Süti elérési út',
-	'COOKIE_PATH_EXPLAIN'		=> 'Ez általában ugyanaz lesz, mint a fórum elérési útja vagy egy perjel, ha a sütit az egész domainen elérhetővé szeretnéd tenni.', // ? script path
-	'COOKIE_SECURE'				=> 'Süti biztonság',
-	'COOKIE_SECURE_EXPLAIN'		=> 'Ha a szervered SSL-en fut, kapcsold be, egyébként hagyd kikapcsolva. Ha be van állítva, de nincs SSL, az átirányítások során szerver hibák fognak fellépni.',
-	'ONLINE_LENGTH'				=> 'Ki van itt megjelenési időtartam',
-	'ONLINE_LENGTH_EXPLAIN'		=> 'Ennyi perc után nem fognak az inaktív felhasználók megjelenni a „Ki van itt” listában. Minél nagyobb érték van megadva, annál több időbe telik a lista generálása.',
-	'SESSION_LENGTH'			=> 'Munkamenet hossza',
-	'SESSION_LENGTH_EXPLAIN'	=> 'A munkamenet ennyi idő elteltével jár le, másodpercben.',
+	'COOKIE_DOMAIN'					=> 'Süti domain',
+	'COOKIE_DOMAIN_EXPLAIN'			=> 'A legtöbb esetben a süti domaint nem kell megadni. Hagyd üresen, ha nem vagy biztos az értékében.<br /><br /> Abban az esetben, ha a fórum integrálva van weboldallal vagy más programmal, esetleg több domain névről is elérhető, akkor a következőket kell tenned a megadandó érték eldöntésére. Ha van például egy <i>example.com</i> és egy <i>forums.example.com</i> címed, vagy <i>forums.example.com</i> és <i>blog.example.com</i>, akkor távolítsd el a címek elején lévő aldomaineket addig, amíg meg nem kapod a közös domain nevet, ami ebben az esetben <i>example.com</i>. Most tegyél egy pontot a domain elé és add meg a .example.com címet (figyelj a cím elején lévő pontra).',
+	'COOKIE_NAME'					=> 'Süti név',
+	'COOKIE_NAME_EXPLAIN'			=> 'Ez bármi lehet, amit szeretnél, legyen egyedi. Ha a süti beállítások változnak, a süti nevét is módosítani kell.',
+	'COOKIE_NOTICE'					=> 'Süti használati figyelmeztetés',
+	'COOKIE_NOTICE_EXPLAIN'			=> 'Ha engedélyezed, a látogatóidnak egy süti használati figyelmeztetés kerül megjelenítésre a fórumod felkeresésekor. Erre jogi okokból lehet szükség a fórumod tartalmától és az engedélyezett kiterjesztésektől függően.', //? "If enabled a cookie notice will be displayed to users when visiting your board. This might be required by law depending on the content of your board and enabled extensions."
+	'COOKIE_PATH'					=> 'Süti elérési út',
+	'COOKIE_PATH_EXPLAIN'			=> 'Ez általában ugyanaz lesz, mint a fórum elérési útja vagy egy perjel, ha a sütit az egész domainen elérhetővé szeretnéd tenni.', // ? script path
+	'COOKIE_SECURE'					=> 'Süti biztonság',
+	'COOKIE_SECURE_EXPLAIN'			=> 'Ha a szervered SSL-en fut, kapcsold be, egyébként hagyd kikapcsolva. Ha be van állítva, de nincs SSL, az átirányítások során szerver hibák fognak fellépni.',
+	'ONLINE_LENGTH'					=> 'Ki van itt megjelenési időtartam',
+	'ONLINE_LENGTH_EXPLAIN'			=> 'Ennyi perc után nem fognak az inaktív felhasználók megjelenni a „Ki van itt” listában. Minél nagyobb érték van megadva, annál több időbe telik a lista generálása.',
+	'SESSION_LENGTH'				=> 'Munkamenet hossza',
+	'SESSION_LENGTH_EXPLAIN'		=> 'A munkamenet ennyi idő elteltével jár le, másodpercben.',
+	'SESSION_GC'					=> 'Munkamenet takarítási intervallum', //? Session cleanup interval
+	'SESSION_GC_EXPLAIN'			=> 'A munkamenetek ennyi idő elteltével kerülnek takarításra, másodpercben.',
+	'SESSION_GUEST_LENGTH'			=> 'Vendég munkamenet hossz',
+	'SESSION_GUEST_LENGTH_EXPLAIN'	=> 'A vendég munkamenetek ennyi idő elteltével járnak le, másodpercben.',
+	'SESSION_GUEST_GC'				=> 'Vendég munkamenet takarítási intervallum',
+	'SESSION_GUEST_GC_EXPLAIN'		=> 'A vendég munkamenetek ennyi idő elteltével kerülnek takarításra, másodpercben.',
 ));
 
 // Contact Settings
