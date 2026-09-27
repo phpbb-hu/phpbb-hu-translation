@@ -63,7 +63,6 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_DEACTIVATED'			=> 'Az azonosítója kézzel deaktiválásra került, csak egy adminisztrátor tudja újraaktiválni.',
 	'ACP'							=> 'Adminisztrátori vezérlőpult',
 	'ACP_SHORT'						=> 'AVP',
-	'ACTIVATION_ALREADY_SENT'		=> 'Az aktiváló e-mail már elküldésre került az e-mail címére. 24 óra múlva megpróbálhatja újra. Ha továbbra is problémái akadnának az azonosítója aktiválásával, lépjen kapcsolatba a fórum adminisztrátorával.',
 	'ACTIVE'						=> 'aktív',
 	'ACTIVE_ERROR'					=> 'A megadott felhasználónév jelenleg inaktív. Ha problémái akadnának az azonosítója aktiválásával, lépjen kapcsolatba a fórum adminisztrátorával.',
 	'ADMINISTRATOR'					=> 'Adminisztrátor',
